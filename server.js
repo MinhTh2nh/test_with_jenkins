@@ -16,6 +16,9 @@ app.get('/router-test-2', (req, res) => {
     res.send('Hello World 2');
   });
 
+app.get('/router-test-3', (req, res) => {
+    res.send('Hello World 3');
+  });
 app.listen(port, hostname, () => {
   console.log(`Your app is running on http://${hostname}:${port}/`);
 });
